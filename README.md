@@ -1,9 +1,9 @@
-📝 To-Do List App (Local Storage)
+📝 <h1>To-Do List App (Local Storage)</h1>
 
 A simple and responsive To-Do List web application built using React that allows users to add, delete, and manage tasks.
 All tasks are stored in the browser using Local Storage, so your data persists even after refreshing the page.
 
-🚀 Features
+🚀 <h1>Features</h1>
 
 ➕ Add new tasks
 
@@ -17,7 +17,7 @@ All tasks are stored in the browser using Local Storage, so your data persists e
 
 📱 Responsive design
 
-🛠️ Technologies Used
+🛠️ <h1>Technologies Used</h1>
 
 React.js
 
@@ -29,7 +29,7 @@ CSS / Tailwind CSS (if used)
 
 Local Storage API
 
-⚙️ How It Works
+⚙️<h1> How It Works</h1>
 
 Tasks are stored as an array in localStorage
 
@@ -58,7 +58,7 @@ or (if using CRA):
 npm start
 
 
-🌟 Future Improvements
+🌟 <h1>Future Improvements</h1>
 
 ✏️ Edit tasks
 
@@ -70,12 +70,12 @@ npm start
 
 🔍 Search & filter tasks
 
-🤝 Contributing
+🤝 <h1>Contributing</h1>
 
 Contributions are welcome!
 Feel free to fork this repository and submit a pull request.
 
-👨‍💻 Author
+👨‍💻 <h1>Author</h1>
 
 Ayush Bahuguna
 GitHub: @ayushbahuguna006-ctrl
