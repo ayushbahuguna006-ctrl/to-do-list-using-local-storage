@@ -1,16 +1,81 @@
-# React + Vite
+📝 To-Do List App (Local Storage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do List web application built using React that allows users to add, delete, and manage tasks.
+All tasks are stored in the browser using Local Storage, so your data persists even after refreshing the page.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new tasks
 
-## React Compiler
+❌ Delete tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💾 Persistent data using Local Storage
 
-## Expanding the ESLint configuration
+⚡ Fast and lightweight
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Clean and simple UI
+
+📱 Responsive design
+
+🛠️ Technologies Used
+
+React.js
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS / Tailwind CSS (if used)
+
+Local Storage API
+
+⚙️ How It Works
+
+Tasks are stored as an array in localStorage
+
+On app load, tasks are fetched from localStorage
+
+Any change (add/delete) updates localStorage instantly
+
+This ensures tasks remain saved even after page reloads
+
+▶️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/your-repo-name.git
+
+2️⃣ Navigate to Project Folder
+cd your-repo-name
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Run the App
+npm run dev
+
+
+or (if using CRA):
+
+npm start
+
+
+🌟 Future Improvements
+
+✏️ Edit tasks
+
+✅ Mark tasks as completed
+
+🌓 Dark/Light mode
+
+📅 Due dates for tasks
+
+🔍 Search & filter tasks
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+👨‍💻 Author
+
+Ayush Bahuguna
+GitHub: @ayushbahuguna006-ctrl
