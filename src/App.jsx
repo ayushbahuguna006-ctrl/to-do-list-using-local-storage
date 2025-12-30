@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { FaClipboardList } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
+import { IoIosPlayCircle } from "react-icons/io";
 
 function App() {
   const [task,settask]=useState("")
@@ -36,19 +37,15 @@ function App() {
 
       {/* main body */}
        
-      <div className='flex justify-center '> <div className='border-black border backdrop-blur-md min-h-[60vh]  w-[90%] rounded-lg md:w-1/2 lg:w-1/3  mt-10 bg-purple-300 '>
-      {/*add button*/}
-      <div className='p-10 flex md:justify-evenly justify-between'><input type="text" value={task} onChange={(e)=>settask(e.target.value)} className='outline-none border border-black w-45 md:w-1/2 p-1 rounded-lg font-semibold' /><button className='border-2 bg-blue-200
-       p-1 rounded-lg ' onClick={handleclick} ><IoMdAdd className='w-8'/></button></div>
-       <div>{tasks.map((item,index)=>{return  <label><p style={{textDecoration:ischecked[index]?"line-through":""}} className="px-10 font-medium rounded-lg text-lg text-black text-start mt-2"> <input type="checkbox"  onClick={()=>handlecheck(index)}/> {item.toUpperCase()}</p></label>})}</div>
-         {/* delete button */}
-
-
-
-
-
+      <div className='min-h-screen flex flex-col justify-center items-center bg-stone-100  '> 
+      
+      
+      <button id='ani1' className='bg-yellow-500 h-20 mb-10 border rounded-2xl hover:bg-white '><IoIosPlayCircle className='w-20 active:w-18 active:h-18 h-20' /></button>
+       <p id='ani2' className='font-mono text-xl text-black' >MAKE YOUR DAY WORTH LIVING</p>
+     
+      
        </div>
-       </div>
+       
 
 
 
