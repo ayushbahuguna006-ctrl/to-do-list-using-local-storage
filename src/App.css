@@ -6,14 +6,14 @@ animation-timing-function: ease-in;
 }
 #ani2{
 animation-name: slideup;
-animation-duration: 1s;
+animation-duration: 500ms;
 animation-timing-function: ease-in;
-animation-delay: 200ms;
+animation-delay: 350ms;
 visibility: hidden;
 animation-fill-mode: forwards;
 }
 @keyframes slideup{
-    0%{transform:translateY(100px);opacity: 0;}
+    0%{transform:translateY(20px);opacity: 0;}
      100% {
     transform: translateY(0);
     opacity: 1;visibility: visible;
