@@ -35,6 +35,7 @@ function About() {
           <li>Clean and minimal UI</li>
           <li>Fast and responsive performance</li>
         </ul>
+        <p className='text-sm text-center mt-10 text-stone-500'>SPECIAL THANKS TO @ADITI and @ANGAD-SUDAN</p>
       </div>
     </div>
     </div>
